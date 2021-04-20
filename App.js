@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
 	},
 	input: {
 		width: 250,
-		padding: 15,
+		padding: Platform.OS === 'ios' ? 20 : 15,
 		backgroundColor: '#fff',
 		borderRadius: 60,
 		elevation: 5,
