@@ -15,13 +15,18 @@ const Task = ({text}) => {
 
 const styles = StyleSheet.create({
 	item: {
-		backgroundColor: '#fff',
-		padding: 15,
-		borderRadius: 10,
 		flexDirection: 'row',
 		alignItems: 'center',
 		justifyContent: 'space-between',
-		marginBottom: 20
+		backgroundColor: '#fff',
+		elevation: 5,
+		shadowColor: '#000',
+		shadowOffset: { width: 0, height: 2 },
+		shadowOpacity: 0.2,
+		shadowRadius: 5,
+		padding: 15,
+		marginBottom: 20,
+		borderRadius: 10
 	},
 	itemLeft: {
 		flexDirection: 'row',
